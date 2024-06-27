@@ -15,12 +15,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
             <nav className={styles.nav}>
-              <li><Link href="/"  className={styles.label}>Contacto</Link></li>
-              <li><Link href="/" className={styles.label}>Reserva</Link></li>
-              <li><Link href="/" className={styles.label}>Sobre Nosotros</Link></li>
-              <li><Link href="/" className={styles.label}>FAQS</Link></li>
+              <li><Link href="/contacto"  className={styles.label}>Contacto</Link></li>
+              <li><Link href="/Reserva" className={styles.label}>Reserva</Link></li>
+              <li><Link href="/SobreNosotros" className={styles.label}>Sobre Nosotros</Link></li>
+              <li><Link href="/FAQS" className={styles.label}>FAQS</Link></li>
             </nav>
-
           {children}
         </body>
     </html>

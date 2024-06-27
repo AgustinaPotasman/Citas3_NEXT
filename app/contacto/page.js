@@ -1,4 +1,3 @@
-
 import Titulo from "../components/Titulo";
 import Input from "../components/input";
 import styles from "./page.module.css";
