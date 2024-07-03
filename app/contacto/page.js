@@ -1,12 +1,12 @@
 import Titulo from "../components/Titulo";
-import Input from "../components/input";
-import styles from "./page.module.css";
+import styles from "./Contacto.module.css";
+import Form from "../components/FormContacto";
 
 export default function Home() {
   return (
-    <main>
-        <Titulo params="Bienvenidos!"></Titulo>
-        <Input iType="text" iPlaceholder="¿Como te llamas?" iLabel="Ingresa tu nombre"></Input>
-    </main>
+    <div className={styles.container}>
+      <Titulo params="Contactanos!"></Titulo>
+      <Form></Form>
+    </div>
   );
 }

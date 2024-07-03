@@ -1,5 +1,6 @@
 import Card from "../Card/page";
 import styles from "./Administrador.module.css";
+import Subtitulo from "../Subtitulo/page";
 
 function AdministradorDeCitas({ citas, setCitas }) {
     let i = -1

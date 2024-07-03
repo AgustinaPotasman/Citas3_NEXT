@@ -1,0 +1,28 @@
+
+.card {
+    background-color: white;
+    color: #000;
+    padding: 1rem 1.5rem 2rem 1.5rem; 
+    margin: 1rem  0;
+}
+.list-container{
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.element {
+    font-size: 1rem;
+    padding: .8rem 0;
+    line-height: 10px;
+    list-style: none;
+}
+.card:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.card:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+

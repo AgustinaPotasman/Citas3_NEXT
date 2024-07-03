@@ -1,0 +1,8 @@
+.casillaForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+}

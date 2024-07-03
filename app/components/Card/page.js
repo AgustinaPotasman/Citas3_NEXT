@@ -11,13 +11,13 @@ function Card({mascota , duenio, fecha, hora, sintomas, id, setCitas, citas}) {
       }else alert("La cita no ha sido eliminada");
     }
     return (
-          <div class="card">
-              <ul>
-                <li><b>Mascota:</b> {mascota}</li>
-                <li><b>Dueño:</b> {duenio}</li>
-                <li><b>Fecha:</b> {fecha}</li>
-                <li><b>Hora:</b> {hora}</li>
-                <li><b>Sintomas:</b> {sintomas}</li>
+          <div className={styles.card}>
+              <ul className={styles.container}>
+                <li className={styles.element}><b>Mascota:</b> {mascota}</li>
+                <li className={styles.element}><b>Dueño:</b> {duenio}</li>
+                <li className={styles.element}><b>Fecha:</b> {fecha}</li>
+                <li className={styles.element}><b>Hora:</b> {hora}</li>
+                <li className={styles.element}><b>Sintomas:</b> {sintomas}</li>
                 <input type="hidden" value={id} name="index" />
               </ul>
               <div onClick={eliminar}>

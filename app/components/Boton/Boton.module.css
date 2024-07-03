@@ -1,0 +1,16 @@
+
+.myBtn {
+    width: 27rem;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.myBtn:hover {
+    border: 1px solid #979797;
+}
