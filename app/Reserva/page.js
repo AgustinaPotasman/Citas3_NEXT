@@ -15,9 +15,9 @@ export default function Home() {
   }, [citas])
   return (
     <div className="App">
-      <header className="App-header">
-        <Titulo titulo="ADMINISTRADOR DE PACIENTES"></Titulo>
-        <div class="mainData">
+      <header className={styles.Appheader}>
+        <Titulo titulo="Administrador de pacientes"></Titulo>
+        <div className={styles.main}>
           <CrearCita citas={citas} setCitas={setCitas}></CrearCita>
           <AdministradorDeCitas citas={citas} setCitas={setCitas}></AdministradorDeCitas>
         </div>

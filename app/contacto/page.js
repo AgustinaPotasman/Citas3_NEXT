@@ -5,7 +5,7 @@ import Form from "../components/FormContacto";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Titulo params="Contactanos!"></Titulo>
+      <Titulo titulo="Contactanos!"></Titulo>
       <Form></Form>
     </div>
   );

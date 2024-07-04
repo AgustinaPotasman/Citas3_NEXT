@@ -1,5 +1,5 @@
 import styles from "./SobreNosotros.module.css";
-import Texto from "../components/Texto/page";
+import Texto from "../components/Texto";
 import Info from "../components/InforSobreNosotros/page";
 
 export default function Home() {

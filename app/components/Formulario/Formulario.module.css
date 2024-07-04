@@ -1,8 +1,7 @@
-.casillaForm {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-    width: -webkit-fill-available;
-    margin-bottom: 20px;
+.btn {
+    background-color: aqua;
+}
+
+.form {
+    width: 30rem;
 }

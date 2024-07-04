@@ -5,11 +5,11 @@ import iStyles from "../Input/input.module.css";
 
 export default function Home() {
   return (
-    <form>
+    <form className={styles.main}>
         <Input iType="text" iPlaceholder="¿Como te llamas?" iLabel="Ingresa tu nombre" iName="nombre"></Input>
         <Input iType="text" iPlaceholder="¿Por que nos queres contactar?" iLabel="Asunto" iName="asunto"></Input>
         <div className={iStyles.container}>
-            <label>Mensaje</label>
+            <label className={iStyles.label}>Mensaje</label>
             <textarea className={styles.textarea} name="contenido"></textarea>
         </div>
         <Boton sendText="Enviar"/>

@@ -1,9 +1,13 @@
-import { Inter } from "next/font/google";
+import { Staatliches } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import styles from "./layout.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const staatliches = 
+  Staatliches({ 
+    weight: '400', 
+    subsets: ["latin"],
+    style: ["normal"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={staatliches.className}>
             <nav className={styles.nav}>
               <li><Link href="/contacto"  className={styles.label}>Contacto</Link></li>
               <li><Link href="/Reserva" className={styles.label}>Reserva</Link></li>

@@ -21,7 +21,7 @@ function Card({mascota , duenio, fecha, hora, sintomas, id, setCitas, citas}) {
                 <input type="hidden" value={id} name="index" />
               </ul>
               <div onClick={eliminar}>
-                <Boton sendText={"Eliminar X"} ></Boton>
+                <Boton sendText={"Eliminar X"} type="regular"></Boton>
               </div>
               
           </div>

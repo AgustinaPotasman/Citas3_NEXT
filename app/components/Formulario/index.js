@@ -1,6 +1,7 @@
 import Boton from "../Boton";
 import styles from "./Formulario.module.css";
 import Input from "../Input";
+import iStyles from "../Input/input.module.css"
 
 function Formulario({ citas, setCita}) {
     
@@ -32,24 +33,16 @@ function Formulario({ citas, setCita}) {
 */ 
 
     return (
-            <form onSubmit={crearCita}>
-                <div className={styles.casillaForm}>
+            <form className={styles.form} onSubmit={crearCita}>
                 <Input iType="text" iPlaceholder="Nombre de tu mascota" iLabel="Nombre mascota" iName="nMascota"></Input>
+                <Input iType="text" iPlaceholder="Nombre dueño de la mascota" iLabel="Nombre Dueño" iName="nDuenio"></Input>
+                <Input iType="date" iPlaceholder="" iLabel="Fecha" iName="fecha"></Input>
+                <Input iType="time" iPlaceholder="" iLabel="Hora" iName="hora"></Input>
+                <div className={iStyles.container}>
+                    <label className={iStyles.label}>Sintomas</label>
+                    <textarea className={iStyles.textarea} name="sintomas"></textarea>
                 </div>
-                <div className="casillaForm">
-                    <Input iType="text" iPlaceholder="Nombre dueño de la mascota" iLabel="Nombre Dueño" iName="nDuenio"></Input>
-                </div>
-                <div className={styles.casillaForm}>
-                    <Input iType="date" iPlaceholder="" iLabel="Fecha" iName="fecha"></Input>
-                </div>
-                <div className={styles.casillaForm}>
-                    <Input iType="time" iPlaceholder="" iLabel="Hora" iName="hora"></Input>
-                </div>
-                <div className={styles.casillaForm}>
-                    <label>Sintomas</label>
-                    <textarea name="sintomas"></textarea>
-                </div>
-                <Boton sendText={"Agregar Cita"}></Boton>
+                <Boton sendText={"Agregar Cita"} type="secondary"></Boton>
             </form>
         );
 }
