@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={staatliches.className}>
             <nav className={styles.nav}>
-              <li><Link href="/contacto"  className={styles.label}>Contacto</Link></li>
+              <li><Link href="/Contacto"  className={styles.label}>Contacto</Link></li>
               <li><Link href="/Reserva" className={styles.label}>Reserva</Link></li>
               <li><Link href="/SobreNosotros" className={styles.label}>Sobre Nosotros</Link></li>
               <li><Link href="/FAQS" className={styles.label}>FAQS</Link></li>
