@@ -5,7 +5,7 @@ import Subtitulo from "../Subtitulo/page";
 function AdministradorDeCitas({ citas, setCitas }) {
     let i = -1
     return (
-            <div className="administradorDeCitas">
+            <div className={styles.administradorDeCitas}>
                 <Subtitulo subtitulo={"Administra tus citas"}></Subtitulo>
                 <div class="cards">
                     {   

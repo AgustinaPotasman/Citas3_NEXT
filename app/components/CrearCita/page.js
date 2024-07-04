@@ -4,7 +4,7 @@ import Subtitulo from '../Subtitulo/page';
 
 function CrearCita( { citas, setCitas } ) {
   return (
-    <div>
+    <div className={styles.main}>
         <Subtitulo subtitulo={"Crear mi cita"}></Subtitulo>
         <Formulario citas={citas} setCita={ setCitas }></Formulario>
     </div>

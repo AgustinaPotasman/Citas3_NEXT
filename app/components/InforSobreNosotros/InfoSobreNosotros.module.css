@@ -1,13 +1,15 @@
 .card {
     display: flex;
     background-color: #fff;
-    padding: 3rem .3rem;
+    padding: 3rem 2.5rem;
     border-radius: 2rem;
     flex-direction: column;
     color: #000;
-    width: 15rem;
+    width: 20rem;
     align-items: center;
     margin: 2rem 1rem;
+    min-height: 25rem;
+    justify-content: space-between;
 }
 
 .card>h2{
@@ -17,4 +19,8 @@
 .card>p {
     font-size: larger;
     padding: 0 .5rem;
+}
+
+.card>img {
+    margin: 1rem 0;
 }

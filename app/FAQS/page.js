@@ -4,10 +4,16 @@ import FAQS from "../components/FAQSCard/page";
 
 export default function Home() {
   return (
-    <main>
-        <Titulo params="FAQS!"></Titulo>
-        <FAQS subtitulo="¿A que hora debo llegar?"
-        parrafo="Recomendamos llegar 5 minutos previos antes del horario aordado"/>
+    <main className={styles.main}>
+        <Titulo titulo="Frequent Asked Questions"></Titulo>
+        <div className={styles.faqs}>
+          <FAQS subtitulo="¿A qué hora debo llegar?"
+            parrafo={`Recomendamos llegar 5 minutos 
+                  previos antes del horario acordado`}/>
+          <FAQS subtitulo="¿Son people friendly?"
+              parrafo={`Sí! Pero tus mascotas siempre 
+              son nuestra prioridad :)`}/>
+        </div>
     </main>
   );
 }

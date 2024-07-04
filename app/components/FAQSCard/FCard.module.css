@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    background-color: #fff;
+    padding: 3rem 2.5rem;
+    border-radius: 2rem;
+    flex-direction: column;
+    color: #000;
+    align-items: flex-start;
+    margin: 2rem 1rem;
+    min-height: 10rem;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.container>h2{
+    font-size: 2rem;
+}
+
+.container>p {
+    font-size: larger;
+    margin-top: .5rem;
+}

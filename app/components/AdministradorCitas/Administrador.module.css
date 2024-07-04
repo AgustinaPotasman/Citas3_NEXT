@@ -1,3 +1,6 @@
 .administradorDeCitas{
     min-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
