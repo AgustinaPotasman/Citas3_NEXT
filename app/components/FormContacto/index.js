@@ -1,6 +1,6 @@
 "use client"
 
-import Input from "../Input";
+import Input from "../Inputt";
 import Boton from "../Boton";
 import styles from "./FormContacto.module.css";
 import iStyles from "../input/input.module.css";
