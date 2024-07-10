@@ -3,7 +3,7 @@
 import Input from "../Input";
 import Boton from "../Boton";
 import styles from "./FormContacto.module.css";
-import iStyles from "../Input/input.module.css";
+import iStyles from "../input/input.module.css";
 
 export default function Home() {
   const thanks = () => alert("Gracias! Nos estaremos contactanto contigo en la brevedad!");
