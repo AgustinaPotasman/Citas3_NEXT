@@ -1,6 +1,6 @@
 import Boton from "../Boton";
 import styles from "./Formulario.module.css";
-import Input from "../Inputt";
+import Input from "../Input";
 import iStyles from "../Input/input.module.css"
 
 function Formulario({ citas, setCita}) {
